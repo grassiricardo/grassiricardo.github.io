@@ -272,7 +272,7 @@
         //Google Maps
         $("#map").googleMap();
         $("#map").addMarker({
-            address: "15 avenue des champs Elysées 75008 Paris" // Your Address
+            address: "Rua Gilmar Pastre - Vila Becker, Toledo - PR" // Your Address
         });
     });
 
