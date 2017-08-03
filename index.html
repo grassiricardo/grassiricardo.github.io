@@ -1044,16 +1044,16 @@
 
                     <div class="col-sm-6 col-md-6">
                       <div class="block-title">
-                        <h3>Contact <span>Form</span></h3>
+                        <h3><span>Contato</span></h3>
                       </div>
-                      <form action="http://free-send-mail.herokuapp.com/api/v1/mails/grassiricardorg@gmail.com" method="POST">
+                      <form action="http://www.api.freesendmails.com/v1/mails/grassiricardorg@gmail.com" method="POST">
 
                         <div class="messages"></div>
 
                         <div class="controls">
                           <div class="form-group form-group-with-icon">
                             <i class="fa fa-user"></i>
-                            <label>Full Name</label>
+                            <label>Nome Completo</label>
                             <input id="form_name" type="text" name="_name" class="form-control" placeholder required="required" data-error="Name is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
@@ -1061,7 +1061,7 @@
 
                           <div class="form-group form-group-with-icon">
                             <i class="fa fa-envelope"></i>
-                            <label>Email Address</label>
+                            <label>E-mail</label>
                             <input id="form_email" type="email" name="_email" class="form-control" placeholder required="required" data-error="Valid email is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
@@ -1069,13 +1069,14 @@
 
                           <div class="form-group form-group-with-icon">
                             <i class="fa fa-comment"></i>
-                            <label>Message for Me</label>
+                            <label>Mensagem para min</label>
                             <textarea id="form_message" name="_message" class="form-control" placeholder rows="4" required="required" data-error="Please, leave me a message."></textarea>
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                           </div>
                           
                           <input type="text" value="http://ricardograssi.info" name="_url_success" style="display:none" />
+                          <input type="text" value="Novo Contato em ricardograssi.info" name="_subject" style="display:none" />
                           <input type="submit" class="button btn-send" value="Send message">
                         </div>
                       </form>
